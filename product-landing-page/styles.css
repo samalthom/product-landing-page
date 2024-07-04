@@ -68,14 +68,20 @@ img{
   #models{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   
   #icon{
-  
+   width: 75%;
   }
   
-  model{
-    
+  #model{
+    margin: 10px;
+    width: 60%;
+    border: 5px solid grey;
+    background-color: white;
   }
   
   form{
@@ -90,4 +96,8 @@ img{
   
   }
   
-  @media
+  @media(max-width: 500px){
+    #models{
+      flex-direction: column;
+    }
+  }
