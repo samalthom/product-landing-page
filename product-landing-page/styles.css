@@ -9,10 +9,10 @@ img{
   }
 
 #title{
-  display: flex;
+  display: block;
   margin: 15px 0 0 10px;
   font-size: 40px;
-  width: 60%;
+  width: 100%;
 }
   html{
     font-family: arial;
@@ -36,15 +36,15 @@ img{
   }
   
   logo{
-    width: 20%;
+    width: 100%;
     margin: 0;
-    display: flex;
+    display: block;
   }
   
   #nav-bar{
-    display: flex;
-    width: 20%;
-    margin: -15px 0 0 0 ;
+    display: block;
+    width: 100%;
+    margin: -15px 20px 0 0 ;
   }
 
   #nav-bar ul{
